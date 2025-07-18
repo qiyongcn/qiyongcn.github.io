@@ -219,14 +219,17 @@ window.addEventListener('DOMContentLoaded', () => {
 const galleryGrid = document.getElementById('galleryGrid');
 const galleryButtons = document.querySelectorAll('.gallery-btn');
 
-// Sample gallery images (in a real app, these would come from uploaded files)
+// Gallery images using actual photos
 const galleryImages = [
-    { src: 'https://via.placeholder.com/300x200/667eea/ffffff?text=Research+1', category: 'research', title: 'Research Activity 1' },
-    { src: 'https://via.placeholder.com/300x200/764ba2/ffffff?text=Conference+1', category: 'conference', title: 'Conference 2023' },
-    { src: 'https://via.placeholder.com/300x200/667eea/ffffff?text=Lab+1', category: 'lab', title: 'Laboratory View' },
-    { src: 'https://via.placeholder.com/300x200/764ba2/ffffff?text=Research+2', category: 'research', title: 'Research Activity 2' },
-    { src: 'https://via.placeholder.com/300x200/667eea/ffffff?text=Conference+2', category: 'conference', title: 'Conference 2022' },
-    { src: 'https://via.placeholder.com/300x200/764ba2/ffffff?text=Lab+2', category: 'lab', title: 'Lab Equipment' }
+    { src: './research1.jpeg', category: 'research', title: '研究活动 1' },
+    { src: './research2.jpeg', category: 'research', title: '研究活动 2' },
+    { src: './lab1.jpeg', category: 'lab', title: '实验室 1' },
+    { src: './lab2.jpeg', category: 'lab', title: '实验室 2' },
+    { src: './conference1.jpeg', category: 'conference', title: '学术会议 1' },
+    { src: './conference2.jpeg', category: 'conference', title: '学术会议 2' },
+    { src: './education1.jpeg', category: 'education', title: '教学活动 1' },
+    { src: './education2.jpeg', category: 'education', title: '教学活动 2' },
+    { src: './education3.jpeg', category: 'education', title: '教学活动 3' }
 ];
 
 function populateGallery(filter = 'all') {
