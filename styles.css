@@ -320,6 +320,52 @@ section {
     line-height: 1.6;
 }
 
+.publication-list {
+    text-align: left;
+}
+
+.publication-section {
+    margin-bottom: 2rem;
+}
+
+.publication-section h5 {
+    color: #667eea;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 0.5rem;
+}
+
+.publication-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.publication-section li {
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    background: rgba(102, 126, 234, 0.05);
+    border-left: 3px solid #764ba2;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    transition: transform 0.2s ease;
+}
+
+.publication-section li:hover {
+    transform: translateX(5px);
+    background: rgba(102, 126, 234, 0.1);
+}
+
+.publication-section strong {
+    color: #333;
+}
+
+.publication-section em {
+    color: #667eea;
+    font-style: normal;
+}
+
 /* Gallery Section */
 .gallery {
     background: #f8f9fa;
